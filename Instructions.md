@@ -29,7 +29,11 @@ Go to extensions tab and click on the cloud button beside SSH:GOOGLE_COLAB_SSH -
 You are setup with VSCode on Local running on Remote Google Compute Engine!!
 
 
+
 **Optional Steps / Getting started with an ML framework (Could have automated these steps but I will leave it to your discretion):**
+
+
+Open a new terminal in VS Code and type the following commands
 
 curl -o /tmp/Miniconda3-latest-Linux-x86_64.sh https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
 
