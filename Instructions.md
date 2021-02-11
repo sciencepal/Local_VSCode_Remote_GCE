@@ -46,9 +46,7 @@ chmod +x /tmp/Miniconda3-latest-Linux-x86_64.sh
 
 sh /tmp/Miniconda3-latest-Linux-x86_64.sh -b -p
 
-alias conda=/root/miniconda3/bin/conda
-
-conda init bash
+/root/miniconda3/bin/conda init bash
 
 *At this point you may need to restart bash terminal*
 
