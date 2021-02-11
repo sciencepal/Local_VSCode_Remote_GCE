@@ -48,6 +48,8 @@ alias conda=/root/miniconda3/bin/conda
 
 git clone https://github.com/sciencepal/Local_VSCode_Remote_GCE.git /tmp/Local_VSCode_Remote_GCE
 
+conda init bash
+
 *At this point you may need to restart bash terminal*
 
 conda create -n ml python=3.7 -y
