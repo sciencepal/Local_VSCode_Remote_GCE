@@ -1,10 +1,26 @@
+**Things to edit in Google Colab:**
+
+1. ngrok token
+
+2. password
+
+3. Github User
+
+4. Github email
+
+</br>
+
+**Steps to setup Local VSCode on Remote GCE:**
+
+</br>
+
 Create an ngrok token from https://ngrok.com/
 
 Open the Notebook https://colab.research.google.com/drive/1LC29rkqaIGd-BWf2xxAJng2TPVPJ9QSn?usp=sharing
 
 Make sure to have GPU as runtime
 
-Replace ngrok token obtained from Step 1 and fill in a custom password
+Replace the 4 variables mentioned above
 
 Run the notebook and enter your AuthToken for connecting gdrive
 
@@ -30,34 +46,6 @@ Accept the fingerPrint prompt; when prompted, type in your password set previous
 
 Go to extensions tab and click on the cloud button beside SSH:GOOGLE_COLAB_SSH - you should be able to select all extensions and install
 
+Select the Python interpreter in command palette and select ~/miniconda3/envs/ml/bin/python as your interpreter
+
 You are now setup with VSCode on Local running on Remote Google Compute Engine!!
-
-</br>
-
-**Optional Steps / Getting started with an ML framework (Could have automated these steps but I will leave it to your discretion):**
-
-</br>
-
-Open a new terminal in VS Code and type the following commands
-
-git config --global user.name "YOUR_GITHUB_USERNAME"
-
-git config --global user.email "YOUR_GITHUB_EMAIL"
-
-curl -o /tmp/Miniconda3-latest-Linux-x86_64.sh https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
-
-chmod +x /tmp/Miniconda3-latest-Linux-x86_64.sh
-
-sh /tmp/Miniconda3-latest-Linux-x86_64.sh -b -p
-
-/root/miniconda3/bin/conda init bash
-
-*At this point you may need to restart bash terminal*
-
-git clone https://github.com/sciencepal/Local_VSCode_Remote_GCE.git /tmp/Local_VSCode_Remote_GCE
-
-conda env create -f /tmp/Local_VSCode_Remote_GCE/environment.yml
-
-conda activate ml
-
-Voila you can begin coding -> remember to work in the folder /root/gdrive/MyDrive/Colab\ Notebooks as it is your Google Drive mount .. else you will lose the data when you close
