@@ -1,51 +1,47 @@
-**Things to edit in Google Colab:**
-
-1. ngrok token
-
-2. password
-
-3. Github User
-
-4. Github email
-
-</br>
-
 **Steps to setup Local VSCode on Remote GCE:**
 
 </br>
 
-Create an ngrok token from https://ngrok.com/
+1. Create an ngrok token from https://ngrok.com/
 
-Open the Notebook https://colab.research.google.com/drive/1LC29rkqaIGd-BWf2xxAJng2TPVPJ9QSn?usp=sharing
+2. Open the Notebook https://colab.research.google.com/drive/1LC29rkqaIGd-BWf2xxAJng2TPVPJ9QSn?usp=sharing
 
-Make sure to have GPU as runtime
+3. Make sure to have GPU as runtime
 
-Replace the 4 variables mentioned above
+4. Replace 4 variables in the Notebook - 
 
-Run the notebook and enter your AuthToken for connecting gdrive
+  a. ngrok token
 
-In the second last cell there are 4 lines containing Host, Hostname, User, Port - will be used later
+  b. password
 
-Leave the last cell running to prevent Colab from closing session 
+  c. Github User
 
-Open VSCode on local
+  d. Github email
 
-Make sure to have Settings Sync as On (Type Settings Sync in Command Palette)
+5. Run the notebook and enter your AuthToken for connecting gdrive
 
-Install extension Remote Development on local VSCode (if not already installed)
+6. In the second last cell there are 4 lines containing Host, Hostname, User, Port - will be used later
 
-Open command palette and type Remote-SSH: Open Configuration File -> /home/$USER/.ssh/config (where $USER = your username)
+7. Leave the last cell running to prevent Colab from closing session 
 
-Paste the Host connection details in second last cell of Colab (step 6) and save
+8. Open VSCode on local
 
-Open command palette and type Remote-SSH: Connect To Host -> google_colab_ssh
+9. Make sure to have Settings Sync as On (Type Settings Sync in Command Palette)
 
-A new Window should open up with google_colab_ssh as Remote Host
+10. Install extension Remote Development on local VSCode (if not already installed)
 
-Accept the fingerPrint prompt; when prompted, type in your password set previously in Colab
+11. Open command palette and type Remote-SSH: Open Configuration File -> /home/$USER/.ssh/config (where $USER = your username)
 
-Go to extensions tab and click on the cloud button beside SSH:GOOGLE_COLAB_SSH - you should be able to select all extensions and install
+12. Paste the Host connection details in second last cell of Colab (step 6) and save
 
-Select the Python interpreter in command palette and select ~/miniconda3/envs/ml/bin/python as your interpreter
+13. Open command palette and type Remote-SSH: Connect To Host -> google_colab_ssh
 
-You are now setup with VSCode on Local running on Remote Google Compute Engine!!
+14. A new Window should open up with google_colab_ssh as Remote Host
+
+15. Accept the fingerPrint prompt; when prompted, type in your password set previously in Colab
+
+16. Go to extensions tab and click on the cloud button beside SSH:GOOGLE_COLAB_SSH - you should be able to select all extensions and install
+
+17. Select the Python interpreter in command palette and select ~/miniconda3/envs/ml/bin/python as your interpreter
+
+**You are now setup with VSCode on Local running on Remote Google Compute Engine!!**
