@@ -10,6 +10,8 @@ Run the notebook and enter your AuthToken for connecting gdrive
 
 In the second last cell copy the 4 lines containing Host, Hostname, User, Port
 
+The last cell will keep running to prevent Colab from closing
+
 Open VSCode on local
 
 Make sure to have Settings Sync as On (Type Settings Sync in Command Palette)
