@@ -43,4 +43,6 @@
 
 17. Select the Python interpreter in command palette and select ~/miniconda3/envs/ml/bin/python as your interpreter
 
+18. When opening a new terminal, if (base) env is activated : type *conda activate ml* first to start running code
+
 **You are now setup with VSCode on Local running on Remote Google Compute Engine!!**
