@@ -179,4 +179,3 @@ dependencies:
     - urllib3==1.26.2
     - wasabi==0.8.0
     - werkzeug==1.0.1
-prefix: /home/aditya/miniconda3/envs/ml
