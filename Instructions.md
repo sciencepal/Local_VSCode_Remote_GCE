@@ -24,7 +24,9 @@ Paste the Host connection details copied from Colab in step 6 and save
 
 Open command palette and type Remote-SSH: Connect To Host -> google_colab_ssh
 
-A new Window should open up with google_colab_ssh as Remote Host - Type in your custom password when prompted
+A new Window should open up with google_colab_ssh as Remote Host
+
+Accept the fingerPrint prompt; when prompted, type in your password set previously in Colab
 
 Go to extensions tab and click on the cloud button beside SSH:GOOGLE_COLAB_SSH - you should be able to select all extensions and install
 
