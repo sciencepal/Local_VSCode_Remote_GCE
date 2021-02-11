@@ -8,9 +8,9 @@ Replace ngrok token obtained from Step 1 and fill in a custom password
 
 Run the notebook and enter your AuthToken for connecting gdrive
 
-In the second last cell copy the 4 lines containing Host, Hostname, User, Port
+In the second last cell there are 4 lines containing Host, Hostname, User, Port - will be used later
 
-The last cell will keep running to prevent Colab from closing
+Leave the last cell running to prevent Colab from closing session 
 
 Open VSCode on local
 
@@ -20,7 +20,7 @@ Install extension Remote Development on local VSCode (if not already installed)
 
 Open command palette and type Remote-SSH: Open Configuration File -> /home/$USER/.ssh/config (where $USER = your username)
 
-Paste the Host connection details copied from Colab in step 6 and save
+Paste the Host connection details in second last cell of Colab (step 6) and save
 
 Open command palette and type Remote-SSH: Connect To Host -> google_colab_ssh
 
@@ -30,7 +30,7 @@ Accept the fingerPrint prompt; when prompted, type in your password set previous
 
 Go to extensions tab and click on the cloud button beside SSH:GOOGLE_COLAB_SSH - you should be able to select all extensions and install
 
-You are setup with VSCode on Local running on Remote Google Compute Engine!!
+You are now setup with VSCode on Local running on Remote Google Compute Engine!!
 
 </br>
 
