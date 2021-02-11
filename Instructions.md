@@ -10,13 +10,12 @@
 
 4. Replace 4 variables in the Notebook - 
 
-  a. ngrok token
-
-  b. password
-
-  c. Github User
-
-  d. Github email
+<ul>
+  <li>ngrok token</li>
+  <li>password</li>
+  <li>Github User</li>
+  <li>Github email</li>
+</ul>
 
 5. Run the notebook and enter your AuthToken for connecting gdrive
 
