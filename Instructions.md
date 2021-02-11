@@ -1,4 +1,4 @@
-Create an ngrok token from ngrok.com
+Create an ngrok token from https://ngrok.com/
 
 Open the Notebook https://colab.research.google.com/drive/1LC29rkqaIGd-BWf2xxAJng2TPVPJ9QSn?usp=sharing
 
