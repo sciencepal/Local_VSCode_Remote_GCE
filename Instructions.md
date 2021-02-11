@@ -27,9 +27,11 @@ A new Window should open up with google_colab_ssh as Remote Host - Type in your 
 Go to extensions tab and click on the cloud button beside SSH:GOOGLE_COLAB_SSH - you should be able to select all extensions and install
 
 You are setup with VSCode on Local running on Remote Google Compute Engine!!
+
 </br>
 
 **Optional Steps / Getting started with an ML framework (Could have automated these steps but I will leave it to your discretion):**
+
 </br>
 
 Open a new terminal in VS Code and type the following commands
