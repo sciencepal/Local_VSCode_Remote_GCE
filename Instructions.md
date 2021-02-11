@@ -46,15 +46,13 @@ sh /tmp/Miniconda3-latest-Linux-x86_64.sh -b -p
 
 alias conda=/root/miniconda3/bin/conda
 
-git clone https://github.com/sciencepal/Local_VSCode_Remote_GCE.git /tmp/Local_VSCode_Remote_GCE
-
 conda init bash
 
 *At this point you may need to restart bash terminal*
 
-conda create -n ml python=3.7 -y
+git clone https://github.com/sciencepal/Local_VSCode_Remote_GCE.git /tmp/Local_VSCode_Remote_GCE
 
-conda create env -f /tmp/Local_VSCode_Remote_GCE/environment.yml
+conda env create -f /tmp/Local_VSCode_Remote_GCE/environment.yml
 
 conda activate ml
 
