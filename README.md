@@ -6,7 +6,7 @@
 
 1. Create an ngrok token from https://ngrok.com/
 
-2. Open the Notebook Colab_SSH in Google Colab
+2. Open the Notebook Colab_SSH in Google Colab  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sciencepal/Local_VSCode_Remote_GCE/blob/main/Colab_SSH.ipynb)
 
 3. Make sure to have GPU as runtime
 
