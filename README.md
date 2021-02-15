@@ -39,7 +39,7 @@
 
 15. Accept the fingerPrint prompt; when prompted, type in your password set previously in the Colab Notebook
 
-16. Go to extensions tab and click on the cloud button beside SSH:GOOGLE_COLAB_SSH - you should be able to select all extensions and install
+16. Go to extensions tab and click on the cloud button beside SSH:GOOGLE_COLAB_SSH - select extensions and install
 
 17. Select the Python interpreter in command palette and select ~/miniconda3/envs/ml/bin/python as your interpreter
 
