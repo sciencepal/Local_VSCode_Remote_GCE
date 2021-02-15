@@ -31,11 +31,11 @@
 
 11. Open command palette and type Remote-SSH: Open Configuration File -> /home/$USER/.ssh/config (where $USER = your username)
 
-12. Paste the Host connection details in second last cell of Colab (step 6) and save
+12. Paste the Host connection details in this file (copied from the second last cell of Colab in step 6) and save file
 
-13. Open command palette and type Remote-SSH: Connect To Host -> google_colab_ssh
+13. Open command palette and type Remote-SSH: Connect To Host and select google_colab_ssh
 
-14. A new Window should open up with google_colab_ssh as Remote Host
+14. A new VSCode window should open up with google_colab_ssh as Remote Host
 
 15. Accept the fingerPrint prompt; when prompted, type in your password set previously in the Colab Notebook
 
