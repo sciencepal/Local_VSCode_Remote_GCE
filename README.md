@@ -1,6 +1,6 @@
 # Local_VSCode_Remote_GCE
 
-**Steps to setup Local VSCode on Remote Google Compute Engine host:**
+**Steps to connect and setup Local VSCode to run on Remote Google Compute Engine host:**
 
 1. Create an ngrok token from https://ngrok.com/
 
