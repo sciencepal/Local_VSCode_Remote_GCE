@@ -19,7 +19,7 @@
 
 5. Run the notebook and enter your AuthToken for connecting gdrive
 
-6. In the second last cell there are 4 lines containing Host, Hostname, User, Port - will be used later
+6. In the second last cell 4 lines containing Host, Hostname, User, Port will be output - note this for use later
 
 7. Leave the last cell running to prevent Colab from closing session 
 
@@ -31,13 +31,13 @@
 
 11. Open command palette and type Remote-SSH: Open Configuration File -> /home/$USER/.ssh/config (where $USER = your username)
 
-12. Paste the Host connection details in this file (copied from the second last cell of Colab in step 6) and save file
+12. Paste the Host connection details (copied from step 6) and save file
 
 13. Open command palette and type Remote-SSH: Connect To Host and select google_colab_ssh
 
 14. A new VSCode window should open up with google_colab_ssh as Remote Host
 
-15. Accept the fingerPrint prompt; when prompted, type in your password set previously in the Colab Notebook
+15. Accept the fingerPrint prompt; when prompted, type in your password set previously in step 4
 
 16. Go to extensions tab and click on the cloud button beside SSH:GOOGLE_COLAB_SSH - select extensions and install
 
@@ -45,4 +45,4 @@
 
 18. When opening a new terminal, if (base) env is activated : type *conda activate ml* first to start running code
 
-**You are now setup with VSCode on Local running on Remote Google Compute Engine!!**
+**You are now setup with VSCode on Local connected to Remote Google Compute Engine!!**
